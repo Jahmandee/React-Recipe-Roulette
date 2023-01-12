@@ -99,8 +99,8 @@ function Recipes() {
     <div style={styles.layout}>
       <div style={styles.container}>
         <div style={styles.heading}>
-          <h1 style={styles.h1}>Recipe Roulette</h1>
-          <p>Enter any recipe or ingredient to begin</p>
+          <h1 style={styles.h1}>Recipe Search</h1>
+          <p>Enter any recipe or ingredient to begin!</p>
         </div>
         <div style={styles.searchContainer}>
           <TextInput
@@ -129,6 +129,7 @@ function Recipes() {
                   key={index}
                   title={recipe.recipe.label}
                   image={recipe.recipe.image}
+                  alt={recipe.recipe.label}
                 />
               </Link>
             ))}

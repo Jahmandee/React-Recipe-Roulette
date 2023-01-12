@@ -19,7 +19,7 @@ function Person(props) {
       <Name name={props.name} />
       <p> My age is {age}</p>
       {props.image && (
-        <img style={{ width: "280px", height: "280px" }} src={props.image} />
+        <img alt='profile image' style={{ width: "280px", height: "280px" }} src={props.image} />
       )}
       <Button onClick={addAge}>+</Button>
       <Button onClick={minusAge}>-</Button>

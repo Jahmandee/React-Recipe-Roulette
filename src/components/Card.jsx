@@ -26,7 +26,7 @@ const styles = {
 function Card(props) {
   return (
     <li style={styles.container}>
-      <img style={styles.image} src={props.image} />
+      <img alt={props.alt} style={styles.image} src={props.image} />
       <p style={styles.title}>{props.title}</p>
     </li>
   );
