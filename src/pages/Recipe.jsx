@@ -25,7 +25,7 @@ function Recipe() {
   return (
     <div style={styles.container}>
       <h1>{recipe.label}</h1>
-      <img alt='recipe image' style={styles.image} src={recipe.image} />
+      <img alt='recipe' style={styles.image} src={recipe.image} />
       <ul>
         <h3>Ingredients</h3>
         {recipe.ingredientLines.map((ingredient, index) => (

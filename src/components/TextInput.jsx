@@ -3,7 +3,6 @@ import React from "react";
 const styles = {
   input: {
     fontSize: "16px",
-    padding: "10px",
     border: "none",
     borderRadius: "8px",
     padding: "8px 32px",
